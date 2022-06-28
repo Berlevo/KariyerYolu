@@ -1,0 +1,28 @@
+body{
+    background:gray;
+}
+.node {
+    cursor: pointer;
+}
+
+    .node circle {
+        fill: #fff;
+        stroke: white;
+        stroke-width: 3px;
+    }
+
+    .node text {
+        font: 15px sans-serif;
+        fill: #fff;
+    }
+
+.link {
+    fill: none;
+    stroke: rgb(100, 214, 119);
+    stroke-width: 2px;
+}
+
+.tree {
+    margin-bottom: 10px;
+    overflow: auto;
+}
